@@ -22,7 +22,7 @@ function Header () {
 }
 ```
 
-Notice that this function contains both JavaScript and HTML. This is referred to as **JSX** and it's only used in React. **The return statement of a component will always be a JSX element.
+Notice that this function contains both JavaScript and HTML. This is referred to as **JSX** and it's only used in React. **The return statement of a component will always be a JSX element.**
 
 You can also add JavaScript to your component. Here's a component that displays a button that will display an alert:
 
@@ -36,7 +36,7 @@ function AlertButton () {
 
 A couple of things to note here:
 - In order to use JavaScript code within your return function you must surround it with a single curly brace: `onClick={() => alert("I was clicked!")}`
-- `button`s and all other components and JSX elements have event listeners attached to them. This is one of the most important aspects of components that allows us to easily build interactive web apps. You can attach any event to any component. [Learn more here](https://reactjs.org/docs/handling-events.html).
+- `button`s and all other JSX elements have event listeners attached to them. This is one of the most important aspects of components that allows us to easily build interactive web apps. You can attach any event to any JSX element or pass events through components as **props**. [Learn more here](https://reactjs.org/docs/handling-events.html).
 
 ### Props
 
